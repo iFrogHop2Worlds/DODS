@@ -1,6 +1,6 @@
 use dods::SoA;
 
-#[derive(SoA, Debug, PartialEq, Clone)]
+#[derive(SoA, Debug)]
 struct SensorReading {
     temperature: f32,
     pressure: f32,
